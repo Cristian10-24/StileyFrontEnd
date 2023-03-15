@@ -1,0 +1,16 @@
+.mapa iframe {
+    width: 100%;
+    height: 600px;
+}
+.ubicacion1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/********************************** RESPONSIVE PARA PANTALLAS MEDIANAS********************************/
+@media (max-width:990px){
+    .mapa iframe{
+        height: 400px;
+    }
+}

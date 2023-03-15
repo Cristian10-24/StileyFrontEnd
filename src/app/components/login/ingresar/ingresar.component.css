@@ -1,0 +1,15 @@
+.row{
+    display: flex;
+    justify-content: center;
+}
+.contenedor{
+    width: 50% !important;
+}
+
+
+/********************************** RESPONSIVE PARA PANTALLAS MEDIANAS********************************/
+@media (max-width:990px){
+    .contenedor{
+        width: 100% !important;
+    }
+}
